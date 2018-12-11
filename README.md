@@ -57,3 +57,8 @@ and then push using the remote name
 E:\mobike>git remote add origin https://github.com/xuxiaoping2016/mobike.git
 
 E:\mobike>git push -u origin master
+
+
+
+https://github.com/ant-design/ant-motion/issues/44
+.bezierEasingMixin();

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Button } from 'antd'
 import './App.css';
+import './App.less'
 
 class App extends Component {
   render() {
@@ -8,9 +10,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
+          <p className="s">
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <Button type="primary">ANniu</Button>
           <a
             className="App-link"
             href="https://reactjs.org"
